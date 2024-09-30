@@ -17,3 +17,19 @@
 ```
 git add название файла
 ```
+Для добавления всех файлов:
+
+git add .
+
+## Коммиты
+
+```
+git commit -m "<коментарий к коммиту>"
+```
+
+## Получение персонального токена на Github
+
+1. Залогиниться в Github (кнопка 'check in' в правом верхнем углу)
+2. Перейти по URL (https://github.com/settings/tokens)
+3. Выбрать 'Generate New Token'
+4. Выбрать 'Generate new token (classic)' 
