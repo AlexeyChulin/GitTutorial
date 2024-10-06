@@ -56,6 +56,10 @@ git init && git symbolic-ref HEAD refs/heads/main
 ```
 git remote add origin <URL удаленного репозитория>
 ```
+Пример:
+```
+git remote add origin https://github.com/AlexeyChulin/Calendar
+```
 
 5. Проверяем:
 
@@ -70,3 +74,15 @@ git push origin main
 ```
 
 В качестве логина вводим логин от GitHub, вместо пароля подставляем токен (не отображается в терминале)
+
+Если в удаленном репозитории есть изменения по сравнению с локальным, ```git push``` не выполнится. В этом случае сначала выполнить ```git pull```, а потом ```git push```.
+
+## Загрузка репозитория с GitHub в локальный
+
+```
+git pull <URL удаленного репозитория>
+```
+Пример:
+```
+git pull https://github.com/AlexeyChulin/Calendar
+```
